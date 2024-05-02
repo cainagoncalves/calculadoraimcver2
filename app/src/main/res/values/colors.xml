@@ -4,4 +4,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primary_400">#cd00ea</color>
     <color name="primary_900">#5c00d2</color>
+    <color name="magreza">#eabb00</color>
+    <color name="normal">#00ea4e</color>
+    <color name="sobrepeso">#ea8100</color>
+    <color name="obesidade">#ea004e</color>
+    <color name="obesidade_grave">#ea0000</color>
 </resources>

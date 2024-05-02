@@ -30,6 +30,15 @@ class ResultActivity : AppCompatActivity() {
             "OBESIDADE GRAVE"
         }
 
+        val color = when (classificacao) {
+            "MAGREZA" -> R.color.magreza
+            "NORMAL" -> R.color.normal
+            "SOBREPESO" -> R.color.sobrepeso
+            "OBESIDADE" -> R.color.obesidade
+            else -> R.color.obesidade_grave
+        }
+
+        tvClassificacao.setTextColor(getColor(color))
         tvClassificacao.text = classificacao
 
     }
