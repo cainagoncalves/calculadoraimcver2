@@ -52,7 +52,9 @@ class MainActivity : AppCompatActivity() {
                 intent.putExtra(KEY_RESULT_IMC, resultado)
                 startActivity(intent)
 
-                println("Cainã ação do botão " + resultado)
+                // Cores
+                // EditText background + Icone
+                // Gradiente + ícone + título + descrição
             }
 
         }
